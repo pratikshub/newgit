@@ -6,7 +6,7 @@ var newarr=[]
 var newarr1=[]
 for(var i=0;i<arr.length;i++)
 {
-  newarr.push(arr[i]["id"])
+ newarr.push(arr[i]["id"]);
 }
 var p=newarr.sort((a,b)=>{return a-b});
 for(var l=0;l<p.length;l++)
